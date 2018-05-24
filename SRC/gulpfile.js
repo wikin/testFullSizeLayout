@@ -26,7 +26,7 @@ gulp.task('js', function () {
     combinedStream.append(  gulp.src('./bower_modules/jquery/dist/jquery.js') );
     combinedStream.append(  gulp.src('./js/script.js') );
 
-    var combinedJS = combinedStream.pipe(concat('Scripts/script.js'));
+    var combinedJS = combinedStream.pipe(concat('scripts/script.js'));
     return combinedJS
         .pipe(uglify({ output:{ comments : 'some'} }))
         .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
