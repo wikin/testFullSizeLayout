@@ -1,0 +1,8 @@
+{
+  "name": "testFullSizeLayout",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "^1.12.0"
+  }
+}

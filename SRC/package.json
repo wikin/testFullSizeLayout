@@ -1,0 +1,27 @@
+{
+  "name": "testFullSizeLayout",
+  "version": "0.0.1",
+  "license": "All rights reserved",
+  "devDependencies": {
+    "combined-stream": "^1.0.6",
+    "deeply": "^2.0.1",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.3",
+    "gulp-replace": "^0.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "postinstall": "bower install && npm install --save-dev gulp-autoprefixer"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-install": "^1.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}

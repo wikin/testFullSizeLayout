@@ -1,0 +1,14 @@
+header {
+    border-top: 40px solid white;
+    background: @blue;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    & + * {
+        padding-top: 120px;
+    }
+}
